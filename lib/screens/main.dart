@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web/screens/credentials.dart';
+import 'package:flutter_web/screens/quiz.dart';
 import 'package:flutter_web/widgets/appbar.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class WebApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Web App',
-      home: Quiz(),
+      home: QUIZ1('IEM'),
     );
   }
 }
